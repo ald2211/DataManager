@@ -25,13 +25,12 @@ Follow these steps to set up the application locally:
 ```bash
 git clone https://github.com/yourusername/DataManager.git
 cd DataManager
-``` bash
+``` 
 
 ### 2. Install Dependencies
 
 backend:npm i
 frontEnd:cd frontEnd --> npm i
-
 
 
 ### 3. Set Up Environment Variables
@@ -40,6 +39,7 @@ frontEnd:cd frontEnd --> npm i
 MONGO_URI=your_mongodb_uri
 PORT=3000
 
+```
 
 ### 3. Run the Application
 
