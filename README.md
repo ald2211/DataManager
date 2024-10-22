@@ -41,17 +41,31 @@ PORT=3000
 
 ```
 
-### 3. Run the Application
+### 4. Run the Application
 
-backend:npm run dev
-frontEnd:cd frontEnd --> npm run dev
+backend:npm run dev (dev env)
+frontEnd:cd frontEnd --> npm run dev (dev env)
 
+## API Endpoints
 
-### Tips for Markdown Formatting:
+### Excel Data Management
+router.post("/upload", upload.single("file"), uploadSheet);
+router.get("/", getProducts);
+router.put("/:id", updateProduct);
+router.delete("/:id", deleteProduct);
+- **Fetch Data**: `GET /api/v1/sheet/`
+- **Upload Sheet**: `POST /api/v1/sheet/upload`
+- **Edit Data**: `PUT /api/v1/sheet/:id`
+- **Delete Data**: `DELETE /api/v1/sheet/:id`
+  
+## Usage
+3. **Upload sheet**: 
+   - upload excel sheet that include data.
+5. **Edit Data**: Edit the Data from the Excel.
+6. **Delete Data**: Delete the Data from the Excel.
 
-- Use headers (`#`, `##`, `###`) to organize your document into clear sections.
-- Use code blocks (```bash) for terminal commands for better readability.
-- Hyperlinks are created with `[text](URL)` syntax.
-- Make sure to replace placeholders (like `yourusername`, `your_mongodb_uri`, and `youremail@example.com`) with your actual information.
+## Contact
 
-This README is structured to provide all necessary information for users and developers who want to use or contribute to the **DataManager** project.
+For any inquiries or support, feel free to reach out via email:
+
+**Email**: [afnadca2@gmail.com](mailto:afnadca2@gmail.com)
