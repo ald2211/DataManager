@@ -29,10 +29,10 @@ cd DataManager
 
 ### 2. Install Dependencies
 
-# For backend
+#### For backend
 npm i
 
-# For frontend
+#### For frontend
 cd frontEnd --> npm i
 
 
@@ -47,10 +47,10 @@ PORT=3000
 ### 4. Run the Application
 
 
-# For backend
+#### For backend
 npm run dev (dev env)
 
-# For frontend
+#### For frontend
 cd frontEnd --> npm run dev (dev env)
 
 ## API Endpoints
