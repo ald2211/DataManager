@@ -25,6 +25,7 @@ Follow these steps to set up the application locally:
 ```bash
 git clone https://github.com/yourusername/DataManager.git
 cd DataManager
+``` bash
 
 ### 2. Install Dependencies
 
@@ -44,6 +45,7 @@ PORT=3000
 
 backend:npm run dev
 frontEnd:cd frontEnd --> npm run dev
+
 
 ### Tips for Markdown Formatting:
 
