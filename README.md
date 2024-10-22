@@ -29,8 +29,11 @@ cd DataManager
 
 ### 2. Install Dependencies
 
-backend:npm i
-frontEnd:cd frontEnd --> npm i
+# For backend
+npm i
+
+# For frontend
+cd frontEnd --> npm i
 
 
 ### 3. Set Up Environment Variables
@@ -43,26 +46,26 @@ PORT=3000
 
 ### 4. Run the Application
 
-backend:npm run dev (dev env)
-frontEnd:cd frontEnd --> npm run dev (dev env)
+
+# For backend
+npm run dev (dev env)
+
+# For frontend
+cd frontEnd --> npm run dev (dev env)
 
 ## API Endpoints
 
 ### Excel Data Management
-router.post("/upload", upload.single("file"), uploadSheet);
-router.get("/", getProducts);
-router.put("/:id", updateProduct);
-router.delete("/:id", deleteProduct);
+
 - **Fetch Data**: `GET /api/v1/sheet/`
 - **Upload Sheet**: `POST /api/v1/sheet/upload`
 - **Edit Data**: `PUT /api/v1/sheet/:id`
 - **Delete Data**: `DELETE /api/v1/sheet/:id`
   
 ## Usage
-3. **Upload sheet**: 
-   - upload excel sheet that include data.
-5. **Edit Data**: Edit the Data from the Excel.
-6. **Delete Data**: Delete the Data from the Excel.
+- **Upload sheet**: upload excel sheet that include data.
+- **Edit Data**: Edit the Data from the Excel.
+- **Delete Data**: Delete the Data from the Excel.
 
 ## Contact
 
